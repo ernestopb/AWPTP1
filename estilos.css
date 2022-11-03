@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Finlandica&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(182, 253, 255);
+}
+header {
+    font-family: 'Finlandica', normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    color: #3f3f3f;
+}
+
+button {
+    width: 200px;
+    height: 32px;
+    background-color: greenyellow;
+}
+
+button:hover{
+    background-color: green;
+}
+
+a{
+    text-decoration: none;
+    color: green;
+}
+
+a:hover{
+    color: grey;
+}
+
+h1 {
+    font-size: 5vw;
+}
+
+main {
+    font-family: 'Finlandica', sans-serif;
+    color: #3f3f3f;
+    min-height: 70vh;
+    width: 90%;
+    margin: auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card {
+    border-radius: 5px;
+    border: 1px solid #3f3f3f;
+    padding: 1rem;
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-2 {
+    border-radius: 5px;
+    border: 1px solid #3f3f3f;
+    padding: 1rem;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-2 img {
+    width: 80%;
+}
+
+.card-2 strong {
+    font-weight: 800;
+}
+footer {
+    font-family: 'Finlandica', sans-serif;
+    color: #3f3f3f;
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
